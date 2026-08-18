@@ -1,0 +1,34 @@
+{
+  "protocol": "dokki-charts@1",
+  "title": "Enterprise activation accelerated through Q4",
+  "subtitle": "Activated workspaces, quarterly",
+  "chart": {
+    "type": "bar",
+    "orientation": "vertical"
+  },
+  "encoding": {
+    "category": "quarter",
+    "value": "activated"
+  },
+  "data": [
+    { "quarter": "Q1", "activated": 42 },
+    { "quarter": "Q2", "activated": 56 },
+    { "quarter": "Q3", "activated": 74 },
+    { "quarter": "Q4", "activated": 108 }
+  ],
+  "insight": "Q4 added 34 activated workspaces over Q3, the largest sequential increase of the year.",
+  "notes": [
+    "Activation means at least three active members and one published resource within 30 days."
+  ],
+  "sources": [
+    {
+      "label": "Illustrative Dokki product analytics dataset"
+    }
+  ],
+  "numberFormat": "plain",
+  "theme": {
+    "accent": "#5B5CF0",
+    "background": "#F7F7F4",
+    "foreground": "#171717"
+  }
+}

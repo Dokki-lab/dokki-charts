@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dokki Charts"
+  short_description: "Create accessible interactive charts and export SVG, PNG, CSV, or JSON."
+  default_prompt: "Turn the provided data into an accessible interactive chart Artifact, choosing the chart from the data shape and the user's reading goal."

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "dokki-charts",
+  "display_name": "Dokki Charts",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "protocol": "dokki-charts@1",
+  "source": {
+    "provider": "github",
+    "repository": "Dokki-lab/dokki-charts"
+  },
+  "execution": "isolated",
+  "capabilities": [
+    "artifact:write",
+    "file:write",
+    "sandbox:execute"
+  ],
+  "network": "none",
+  "secrets": [],
+  "outputs": [
+    "text/html",
+    "image/svg+xml",
+    "image/png",
+    "text/csv",
+    "application/json"
+  ]
+}

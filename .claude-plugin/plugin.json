@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "dokki-charts",
+  "displayName": "Dokki Charts",
+  "version": "1.0.0",
+  "description": "Turn structured data into accessible interactive chart Artifacts with downloadable SVG, PNG and data.",
+  "author": {
+    "name": "Dokki"
+  },
+  "homepage": "https://github.com/Dokki-lab/dokki-charts",
+  "repository": "https://github.com/Dokki-lab/dokki-charts",
+  "license": "MIT-0",
+  "skills": "./skill"
+}

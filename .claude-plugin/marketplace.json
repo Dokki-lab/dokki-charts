@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dokki-skills",
+  "owner": {
+    "name": "Dokki"
+  },
+  "description": "Open-source skills from Dokki.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "dokki-charts",
+      "description": "Create accessible interactive chart Artifacts with downloadable SVG, PNG and data.",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}

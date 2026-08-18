@@ -1,0 +1,31 @@
+{
+  "name": "dokki-charts",
+  "version": "1.0.0",
+  "description": "Open-source chart skill for AI agents. Turn structured data into accessible interactive HTML Artifacts with SVG, PNG, CSV and JSON exports.",
+  "type": "module",
+  "license": "MIT-0",
+  "bin": {
+    "dokki-charts": "./skill/scripts/dokki-charts.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate:example": "node skill/scripts/dokki-charts.mjs validate examples/market-pulse/chart.json",
+    "build:example": "node skill/scripts/dokki-charts.mjs package examples/market-pulse/chart.json --out-dir dist/market-pulse",
+    "check": "npm run test && npm run build:example"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-charts",
+    "claude-code",
+    "clawhub",
+    "codex",
+    "data-visualization",
+    "dokki",
+    "html-artifact",
+    "openclaw",
+    "svg"
+  ]
+}
