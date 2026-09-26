@@ -9,6 +9,8 @@
 
 # Dokki Charts
 
+**You lead. Agents do the work.** [Dokki](https://dokki.one) brings your team, agents and work into one workspace—from the first goal to shared, editable results.
+
 Open-source chart skill for Dokki, Claude Code, Codex and OpenClaw. Turn structured data into accessible, interactive HTML Artifacts with downloadable SVG, PNG, CSV and JSON.
 
 [Install](#install) · [Run an example](#build-the-example) · [Skill guide](skill/SKILL.md) · [MIT-0 license](LICENSE)
